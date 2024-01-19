@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="menu" id="menu">
+      <a href="" class="logo">LOGO</a>
+        <a target="blank" href="https://vk.com/kawaistudiomc">Новости</a>
+        <a href="#" onclick="rules(); return false;">Правила</a>
+        <a href="#" onclick="contacts(); return false;">Контакты</a>
+        <a href="#" onclick="faq(); return false;">FAQ</a>
+      <button class="start" onclick="start(); return false;">Начать игру</button>
+      </div>
+      <div class="hidden" id="min-menu">
+      <a href="" class="min-logo" id="men-logo">LOGO</a><br><hr>
+        <a target="blank" href="https://vk.com/kawaistudiomc">Новости</a><br><hr>
+        <a href="#" onclick="rules(); return false;">Правила</a><br><hr>
+        <a href="#" onclick="contacts(); return false;">Контакты</a><br><hr>
+        <a href="#" onclick="faq(); return false;">FAQ</a><br><hr>
+      <button class="start" onclick="start(); return false;">Начать игру</button><br><hr>
+      <button onclick="menuClose(); return false;">Закрыть</button><br>
+      </div>
+      <button class="min-menu-btn" id="minBtn"><img src="img/menu.svg" width="45px"></button>
+      <a href="" class="logo" id="min-logo">LOGO</a>
+    </header>
+      <div class="light-on" id="light" onclick="menuCloseL(); return false;"></div>
+      <!--contact-->
+      <div id="contact-info" class="hidden">
+        <h1>Контакты</h1>
+        <a target="_blank" href="https://vk.com">Мы ВКонтакте</a><br>
+        <a target="blank" href="https://discord.com">Наш дискорд сервер</a><br>
+        <button onclick="Close();">Закрыть</button>
+      </div>
+      <!--rules-->
+      <div id="rules-info" class="hidden">
+        <h1>Правила</h1>
+        <h3>Основные правила</h3>
+        <span><b>1.1</b> Не спавнится на спавне</span><br>
+        <h3>Правила для донатеров</h3>
+        <span><b>2.1</b> Не читерить на спавне (в инных случаях можно!)</span><br>
+        <button onclick="Close();">Закрыть</button>
+      </div>
+      <!--FAQ-->
+      <div id="FAQ-info" class="hidden">
+        <h1>Ответы на вопросы</h1>
+        <span><b>Я человек?</b> Да!</span><br>
+         <span><b>Я гоблин?</b> нет, ты человек!</span><br>
+        <button onclick="Close();">Закрыть</button>
+      </div>
+      <!--START-->
+      <div id="start-info" class="hidden">
+        <h1>Как начать игру на сервере?</h1>
+        <span><h4>Шаг первый:</h4><b>Установите и зайдите в майнкрафт от версии 1.9 до 1.16.4</b> (рекомендуем версию 1.12.2)</span><br>
+        <span><h4>Шаг второй:</h4><b>Зайдите во вкладку сетевая игра, нажмите на кнопку "добавить" и добавте наш сервер, IP: mc.servername.ru</b> (после этих действий сервер будет находится во вкладке "сетевая игра")</span><br>
+        <span><h4>Шаг третий:</h4><b>Зайдите на сервер, для этого нажмите на него и после этого нажмите на кнопку подключится</b> (Вы успешно зашли на сервер? Вам осталось зарегестрировать аккаунт! Дальнейшие инструкции вы сможете найти в чате игры)</span><br>
+        <button onclick="Close();">Закрыть</button>
+      </div>
+      <!--content-->
+      <content>
+        <!--Вставлять сюда-->
+      </content>
+    <script src="script.js"></script>
+  </body>
+</html>
