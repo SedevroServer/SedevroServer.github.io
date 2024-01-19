@@ -1,0 +1,53 @@
+
+.trademc-buyform-title{
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.trademc-buyform-input{
+  background-color: #dfdfdf;
+  border: none;
+  border-radius: 25px;
+  width: 250px;
+  height: 25px;
+  padding-left: 15px;
+  padding-right: 15px; 
+  outline: none;
+}
+.trademc-buyform-input::placeholder{
+  color: #111;
+}
+.trademc-buyform-input:hover{
+  background-color: #fff;
+}
+.trademc-buyform-select select{
+  outline: none;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 25px;
+  width: 275px;
+  height: 25px;
+  padding-left: 15px;
+  padding-right: 15px; 
+  background-color: #dfdfdf;
+}
+.trademc-buyform-select select:hover{
+  background-color: #fff;
+}
+.trademc-buyform-button{
+  margin-top: 15px;
+  background-color: #a40123;
+  box-shadow: -5px 3px 10px #a40123;
+  border: none;
+  border-radius: 25px;
+  width: 250px;
+  height: 25px;
+  padding-left: 15px;
+  padding-right: 15px; 
+  outline: none;
+}
+.trademc-buyform-button:hover{
+  background-color: #c40027;
+  box-shadow: -5px 3px 10px #c40027;
+}
